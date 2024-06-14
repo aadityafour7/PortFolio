@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);    
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(25, 25, 68);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: greenyellow;
+            font-size: 1.05rem;
+            
+        }
+        .left{
+            font-size: 1.4rem;
+        }
+        .firstSection{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 30px 0;
+        }
+        .firstSection > div{
+            width: 30%;
+        }
+        .leftSection{ 
+          font-size: 3rem;
+
+        }
+        .rightSection img{
+            width: 80%;
+            margin: 50px;
+        }
+        .purple{
+            color: blueviolet;
+            font-size: 3rem;
+        }
+        #element{
+            color: greenyellow;
+        }
+        .secondSection{
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+        .line{
+            border: 0;
+            background: rgb(72, 52, 182);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .secondSection h1{
+            font-size: 1.8rem;
+        }
+        .textgrey{
+            color: grey;
+        }
+        .secondSection .box{
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+        .secondSection .vertical{
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top{
+            width: 35px;
+            position: relative;
+            top: -40px;
+            left: -15px;
+        }
+        .vertical-title{
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 18px;
+        }
+        .vertical-desc{
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+          }
+          
+          .footer h4 {
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+          }
+          
+          .icons {
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            /* padding: 18px 0; */
+            font-size: 24px;
+          }
+          
+          .icons-blue {
+            color: #3f5177;
+            cursor: pointer;
+            font-size: 18px;
+          }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="project.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+               </ul> 
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">Hi. I am <span class="purple">Aaditya</span>
+                <div>I am a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightSection">
+                <img src="prog.jpg" alt="">
+            </div>
+        </section>
+        <hr class="line">
+        <section class="secondSection">
+            <span class="textgrey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="sait.png" alt="">
+                    <div class="vertical-title">
+                        SAIT
+                    </div>
+                    <div class="vertical-desc">
+                        <pre>Member - 2021-22</pre>
+                        <pre>Asst. Editor - 2022-23</pre>
+                        <pre>President - 2023-24</pre>
+                        <pre>Mentor - 2024-25</pre>
+                      
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pace.png" alt="">
+                    <div class="vertical-title">
+                        PACE
+                    </div>
+                    <div class="vertical-desc">
+                      <pre>Joint Art Developer - 2022-23</pre>
+                        <pre>PACEr of the year 2022-23 </pre>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tedx.jpeg" alt="">
+                    <div class="vertical-title">
+                        TEDx WCE
+                    </div>
+                    <div class="vertical-desc">
+                        <pre>Social Media Manager 2023-24
+
+                        </pre>
+                    </div>
+                </div>
+                    <div class="vertical">
+                    <img class="image-top" src="vision.jpeg" alt="">
+                    <div class="vertical-title">
+                        Vision 2024
+                    </div>
+                    <div class="vertical-desc">
+                        <pre>Chief Coordinator at Cybermind
+
+                        </pre>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="tpo.jpeg" alt="">
+                    <div class="vertical-title">
+                        Training & Placement Cell
+                    </div>
+                    <div class="vertical-desc">
+                        <pre>Chief Coordinator - 2024-25</pre>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="intern.png" alt="">
+                    <div class="vertical-title">
+                        Internships
+                    </div>
+                    <div class="vertical-desc">
+                        <pre>C++ intern at Codsoft</pre>
+                        <pre>Web and Digital Media intern</pre>
+                        <pre>at Maha Accelerator</pre>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+      <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Passionate Programmer.', 'Final Year Student.'],
+      typeSpeed: 150,
+    });
+  </script>
+</body>
+<hr class="line">
+
+<section class="footer">
+  
+    <p style="color: rgb(87, 9, 26);">
+        Made by Aaditya Khot
+        <br>
+        Copyright @ 2023
+        <br>
+             <a class="plain-link icons-blue" href="https://www.linkedin.com/in/aaditya-khot-111672229"><i class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com/aadityafour7"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://instagram.com/aaditya._.47?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:aaditya.khot@walchandsangli.ac.in"><i class="fa fa-at"></i></a>
+    </p>
+</section>
+</html>

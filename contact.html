@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: rgb(0, 0, 33);    
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(25, 25, 68);
+        }
+        nav ul{
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li{
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a{
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover{
+            color: greenyellow;
+            font-size: 1.05rem;
+            
+        }
+        .left{
+            font-size: 1.4rem;
+        }
+        .contact-section {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: rgb(25, 25, 68);
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: 0.5s;
+        }
+        
+        .contact-section h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #fbf2f2;
+            margin-bottom: 20px;
+        }
+        
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-item .icon {
+            width: 40px;
+            height: 40px;
+            margin-right: 20px;
+        }
+        
+        .contact-text {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        
+        .contact-text strong {
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 5px;
+            color: greenyellow;
+        }
+        .line{
+            border: 0;
+            background: rgb(72, 52, 182);
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .footer {
+            width: 100%;
+            text-align: center;
+            padding: 30px 0;
+          }
+          
+          .footer h4 {
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-weight: 600;
+          }
+          
+          .icons {
+            color: #f44336;
+            margin: 0 13px;
+            cursor: pointer;
+            /* padding: 18px 0; */
+            font-size: 24px;
+          }
+          
+          .icons-blue {
+            color: #3f5177;
+            cursor: pointer;
+            font-size: 18px;
+          }
+          .contact-section:hover{
+            box-shadow: 0 0 15px 10px  rgb(72, 52, 182);
+            transform: scale(1.08);
+            transition-timing-function: ease-in-out;
+          }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="contact-section">
+        <h2>Contact Details</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <!-- <img src="home.jpg" alt="" class="icon"> -->
+                <div class="contact-text">
+                    <strong>Contact Number <br></strong>8411026001
+                </div>
+            </div>
+            <div class="contact-item">
+                <!-- <img src="phone-icon.png" alt="Phone Icon" class="icon"> -->
+                <div class="contact-text">
+                    <strong>Address</strong>
+                    Kolhapur, Maharashtra - 416202
+                </div>
+            </div>
+            <div class="contact-item">
+                <!-- <img src="email-icon.png" alt="Email Icon" class="icon"> -->
+                <div class="contact-text">
+                    <strong>E-mail</strong>
+                    aadityathebest47@gmail.com
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr class="line">
+
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <p style="color:rgb(87, 9, 26);">
+        Made by Aaditya Khot
+        <br>
+        Copyright @ 2023
+        <br>
+            <a class="plain-link icons-blue" href="https://www.linkedin.com/in/aaditya-khot-111672229"><i class="fa fa-linkedin"></i></a>
+            <a class="plain-link icons-blue" href="https://github.com/aadityafour7"><i class="fa fa-github"></i></a>
+            <a class="plain-link icons-blue" href="https://instagram.com/aaditya._.47?igshid=MzRlODBiNWFlZA=="><i class="fa fa-instagram"></i></a>
+            <a class="plain-link icons-blue" href="mailto:aaditya.khot@walchandsangli.ac.in"><i class="fa fa-at"></i></a>
+    </p>
+</section>
+</body>
+</html>
